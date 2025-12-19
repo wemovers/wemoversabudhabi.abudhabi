@@ -1,10 +1,9 @@
-import React from 'react';
-import '../assets/css/values.css';
+import '../assets/css/value.css'
 
-import expertImg from '../assets/images/carefulHandling.webp';
-import customerImg from '../assets/images/HonestService.jpg';
-import supportImg from '../assets/images/CustomerHappiness.webp';
-import safeSecure from '../assets/images/safeSecure.webp';
+import expertImg from '../assets/img/81-4.png';
+import customerImg from '../assets/img/86-1.jpg';
+import supportImg from '../assets/img/86-2.jpg';
+import safeSecure from '../assets/img/86.jpg';
 
 const Values = () => {
   return (
