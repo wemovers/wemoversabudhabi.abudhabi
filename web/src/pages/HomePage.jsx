@@ -1,5 +1,6 @@
 import React from 'react'
 import Blog from '../components/Blog'
+import AboutWeMovers from '../components/About'
 import Hero from '../components/Hero'
 import Values from '../components/Values'
 import ContactUs from '../components/ContactUs'
@@ -11,11 +12,14 @@ const HomePage = () => {
     <div>
       <Hero/>
       <Mission/>
+      <AboutWeMovers/>
       <Values/>
-      <Blog/>
-      <Faqs/>
-      <ContactUs/>
+    
+    
       <Services/>
+        <Faqs/>
+      <ContactUs/>
+        <Blog/>
     </div>
   )
 }
