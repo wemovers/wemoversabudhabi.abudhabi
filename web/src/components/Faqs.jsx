@@ -40,7 +40,7 @@ const Faqs = () => {
     id='faqs'>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 style={{
-          color: '#F25205', // Dark Orange
+          color: '#450693', // Dark Orange
           textAlign: 'center',
           marginBottom: '40px',
           fontSize: '2.5rem',
@@ -52,9 +52,9 @@ const Faqs = () => {
         {faqs.map((faq, index) => (
           <div key={index} style={{
             marginBottom: '20px',
-            border: '2px solid #F25205',
+            border: '2px solid #FF3F7F',
             borderRadius: '8px',
-            backgroundColor: activeIndex === index ? '#f05d04' : '#F27405', // Darker when active
+            backgroundColor: activeIndex === index ? '#FF3F7F' : '#FF3F7F', // Darker when active
             transition: 'all 0.3s ease-in-out',
           }}>
             <div
