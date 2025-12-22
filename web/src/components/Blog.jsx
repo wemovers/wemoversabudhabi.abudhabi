@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/img/r1.jpg";
+import img1 from "../assets/img/fr1.jpg";
 import img2 from "../assets/img/Reliable.jpg";
 import img3 from "../assets/img/r3.jpg";
 
@@ -9,9 +9,9 @@ const Blog = () => {
       id: 1,
       imgSrc: img1,
       category: "Moving Company",
-      title: "Professional House Movers in Abu Dhabi for Safe Home Relocation",
-      desc: "Relocating​‍​‌‍​‍‌​‍​‌‍​‍‌ to a new place is a life-changing event, but the act of packing, moving, and sorting can turn up to be a stressful experience if you dont have the right kind of help...........",
-      link: "/blog/professional-house-movers-in-abu-dhabi",
+      title: "Fine Art and Antique Shipping Services for Safe International Transport",
+      desc: "That antique cabinet was passed down through four generations. The oil painting you bought at auction. The sculpture took an artist six months to create........",
+      link: "/blog/fine-art-and-antique-shipping-services",
     },
     {
       id: 2,
