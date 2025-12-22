@@ -62,20 +62,7 @@ const Hero = () => {
       >
         {/* LEFT CONTENT */}
         <div>
-          <span
-            style={{
-              display: "inline-block",
-              padding: "8px 18px",
-              backgroundColor: "rgba(255,196,0,0.15)",
-              color: "#FFC400",
-              borderRadius: "30px",
-              fontSize: "0.85rem",
-              fontWeight: "600",
-              marginBottom: "18px",
-            }}
-          >
-            Trusted Movers in UAE
-          </span>
+     
 
           <h1
             style={{
@@ -87,9 +74,10 @@ const Hero = () => {
               textAlign:"center"
             }}
           >
-            Stress-Free Moving <br />
+          Trusted and Skilled  Movers<br/>
             <span style={{ color: "#FFC400" }}>
-              Anywhere in the UAE
+         in Abu Dhabi
+
             </span>
           </h1>
 
@@ -103,9 +91,7 @@ const Hero = () => {
               textAlign:"justify"
             }}
           >
-            WeMovers provides professional house shifting, office relocation,
-            packing, storage, and international moving services across Dubai,
-            Abu Dhabi, and all UAE cities — safe, fast, and affordable.
+          At We Movers Abu Dhabi, we provide safe, cheap, and problem-free moving answers. Our professional team manages packing, shipping, and logistics with care and performance for each residential and industrial relocation
           </p>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>

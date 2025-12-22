@@ -20,29 +20,18 @@ const AboutWeMovers = () => {
       >
         {/* LEFT CONTENT */}
         <div style={{ flex: 1, minWidth: "300px" }}>
-          <span
-            style={{
-              background: "#FFC400",
-              color: "#450693",
-              padding: "6px 16px",
-              borderRadius: "20px",
-              fontSize: "14px",
-              fontWeight: 600,
-              letterSpacing: "0.5px",
-            }}
-          >
-            About WeMovers
-          </span>
-
+       
           <h2
             style={{
               margin: "22px 0",
               fontSize: "44px",
               lineHeight: "1.2",
               color: "#ffffff",
+              textAlign:"center"
             }}
           >
-            We Don’t Just Move <br /> Homes — We Move Lives
+           We Don’t Just Move Homes, We Move Your Life
+
           </h2>
 
           <p
@@ -52,13 +41,12 @@ const AboutWeMovers = () => {
               color: "#ffffff",
               opacity: 0.9,
               marginBottom: "18px",
+                 textAlign:"justify"
             }}
           >
-            At <strong>WeMovers.ae</strong>, relocation is more than transportation.
-            It’s about trust, responsibility, and delivering peace of mind.
-            From apartments to offices and villas, every move is handled with
-            precision and care.
-          </p>
+           At We Movers Abu Dhabi, we accept as true that shifting is greater than transporting assets from one area to every other. It’s about new beginnings, sparkling possibilities, and crucial life moments. That’s why we recognize our expertise in our clients’ needs, timelines, and issues. Our experienced team handles each object with care, from delicate valuables to big fixtures, ensuring an easy and stress-free relocation experience constructed on accept as true with and professionalism.
+
+     </p>
 
           <p
             style={{
@@ -66,19 +54,20 @@ const AboutWeMovers = () => {
               lineHeight: "1.9",
               color: "#ffffff",
               opacity: 0.9,
+                 textAlign:"justify"
             }}
           >
-            Backed by trained professionals, modern equipment, and a customer-first
-            mindset, we ensure smooth, secure, and stress-free moving experiences
-            across the UAE.
+           We go beyond primary transferring services by supplying personalized solutions, clear conversation, and reliable aid at every step. Whether you’re moving a domestic or office, our dedication is to make your transition easy, safe, and advantageous. With top Movers in Abu Dhabi, you’re now not just changing places, you’re moving ahead with self-assurance and peace of mind.
+
+     
           </p>
 
           {/* VALUES */}
           <div style={{ marginTop: "28px" }}>
             {[
-              "Expert packing & careful handling",
-              "Fast, secure & damage-free delivery",
-              "Clear pricing with zero hidden charges",
+              "Personalized shifting answers with care",
+              "Professional, educated, and relied on the group",
+              "Stress-free, timely, and stable relocation",
             ].map((item, index) => (
               <div
                 key={index}
@@ -142,7 +131,7 @@ const AboutWeMovers = () => {
             }}
           >
             <h3 style={{ fontSize: "38px", margin: 0, color: "#FFC400" }}>
-              5,000+
+              50,000+
             </h3>
             <p style={{ marginTop: "8px", opacity: 0.9 }}>
               Successful Moves
@@ -180,9 +169,11 @@ const AboutWeMovers = () => {
           fontWeight: 600,
           letterSpacing: "0.3px",
           boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
+          textAlign:"justify"
         }}
       >
-        Trusted by homeowners & businesses across Dubai and Abu Dhabi
+      Approved for satisfactory, reliability, and client satisfaction, handing over relied on moving reviews that actually move lives.
+
       </div>
     </section>
   );
