@@ -7,6 +7,7 @@ import ContactUs from '../components/ContactUs'
 import Services from '../components/Services'
 import Faqs from '../components/Faqs'
 import Mission from '../components/Mission'
+
 const HomePage = () => {
   return (
     <div>
