@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
-import img from '../assets/img/r1.jpg';
+import img from '../assets/img/fr1.jpg';
 import img2 from '../assets/img/r3.jpg';
 import { Link } from 'react-router-dom';
 
@@ -9,13 +9,13 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'Guidance on How to Hire Affordable International Movers in Dubai?',
-      description: 'To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....',
-      metaTitle:'Best Tips: Hire Top Affordable Movers in Dubai',
-      metaDescription:'Find affordable international movers in Dubai. Get guidance on hiring reliable, cost-effective relocation services for your global move.',
-      thumbnail: img,
-      date: 'October 2 2025',
-      url: '/blog/affordable-international-movers-in-dubai'
+      title: 'Fine Art and Antique Shipping Services for Safe International Transport',
+      description: 'That antique cabinet was passed down through four generations. The oil painting you bought at auction. The sculpture took an artist six months to create.',
+       metaTitle:'Fine Art and Antique Shipping Services for Smooth Transport',
+      metaDescription:'Fine art and antique shipping services give you perfect transport with expert handling, insurance, and climate-controlled logistics.',
+        thumbnail: img,
+      date: 'December 22 2025',
+      url: '/blog/fine-art-and-antique-shipping-services'
     },
      {
       id: 2,
