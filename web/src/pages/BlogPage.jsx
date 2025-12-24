@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
-import img from '../assets/img/fr1.jpg';
+import img from '../assets/img/best1.png';
 import img2 from '../assets/img/r3.jpg';
 import { Link } from 'react-router-dom';
 
@@ -19,13 +19,13 @@ const BlogPage = () => {
     },
      {
       id: 2,
-      title: 'Best and Cheap International Movers in Dubai, UAE',
-      description: 'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.....',
-      metaTitle:'Top-Rated Best & Cheap International Movers in Dubai',
-      metaDescription:'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.',
+      title: 'How to Ensure a Smooth Move with Project Transport Companies in UAE?',
+      description: 'Ensure a hassle-free move with UAE transport companies. Tips on choosing movers, packing & logistics for a smooth relocation...',
+      metaTitle:'Smooth Move with Transport Companies in UAE | Tips & Guide',
+      metaDescription:'Ensure a hassle-free move with UAE transport companies. Tips on choosing movers, packing & logistics for a smooth relocation.',
       thumbnail: img2,
-      date: 'October 2, 2025',
-      url: '/blog/best-and-cheap-international-movers-in-dubai-uae'
+      date: 'October 24, 2025',
+      url: '/blog/transport-companies-in-uae-tips'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');
